@@ -10,7 +10,7 @@
 }
 
 /*General Styles */
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -71,6 +71,7 @@ nav {
     display: none;
     top: 100%;
 }
+
 /* Nav Toggle*/
 #nav-toggle:checked~nav {
     display: block;
@@ -99,6 +100,7 @@ footer {
 
 /* Media Querry: Tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
+
     /*Header*/
     nav {
         display: block;
@@ -107,17 +109,17 @@ footer {
         width: fit-content;
         padding-right: 1rem;
     }
-    
+
     #menu {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
     .nav-toggle-label {
-        display:none;
+        display: none;
     }
 
     #logo {
@@ -125,12 +127,13 @@ footer {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
     /*main content*/
     /*push main content down to accom larger header*/
     main {
         margin-top: 79px;
     }
-    
+
 }
 
 /*Large devices, 992px and up*/
@@ -139,6 +142,5 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
-
 
 }
