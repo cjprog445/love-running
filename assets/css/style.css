@@ -145,12 +145,21 @@ main {
 }
 
 #circle-cover-bg {
-    background-image: url("../images/reasons-image.webp") no-repeat center center/cover; 
+    background: url("../images/reasons-image.webp") no-repeat top center / cover; 
     width: 90vw;
     height: 90vw;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    /*Make square image circle*/
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 }
 
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* Footer */
 #social-networks {
     text-align: center;
