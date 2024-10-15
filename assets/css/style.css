@@ -248,6 +248,7 @@ main {
 }
 
 @media screen and (min-width: 1200px) {
+    /*Reasons Section*/
     #benefits {
         display: flex;
         flex-direction: row;
