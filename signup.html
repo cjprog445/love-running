@@ -16,7 +16,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-    </head>
+</head>
 
 <body>
     <!--Header section-->
@@ -36,18 +36,54 @@
         </nav>
     </header>
     <!--Main content section for everything-->
-    <main>Main Content</main>
+    <main>
+        <section id="signup">
+            <form action="https://formdump.codeinstitute.net" method="POST" id="signup-form">
+                <h2><i class="fa-solid fa-heart-pulse"></i> Let's get you signed up!</h2>
+
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">E-mail Address</label>
+                <input type="email" id="email-address" name="email-address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road">Road</label>
+                        <input type="radio" name="running_preference" id="road" value="road" required checked>
+                    </div>
+                    <div>
+                        <label for="trail">Trail</label>
+                        <input type="radio" name="running_preference" id="trail" value="trail" required>
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" name="running_preference" id="both" value="both" required>
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Let's Run!
+                </button>
+            </form>
+        </section>
+    </main>
     <!--Footer Area-->
     <footer>
         <ul id="social-networks">
             <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
             <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a></li>
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i
+                        class="fa-brands fa-square-twitter"></i></a></li>
             <li><a href="https://www.youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a></li>
+                    aria-label="Visit our Youtube page (opens in a new tab)"><i
+                        class="fa-brands fa-square-youtube"></i></a></li>
             <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i> </a></li>
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i>
+                </a></li>
         </ul>
     </footer>
 
