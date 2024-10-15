@@ -113,8 +113,42 @@ main {
 }
 
 #cover-text > h2, #cover-text > h3 {
-    color: #ffffff
+    color: #ffffff;
 
+}
+
+/*Reasons section*/
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+
+}
+
+#reasons h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#benefits-physical > div, #benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#circle-cover-bg {
+    background-image: url("../images/reasons-image.webp") no-repeat center center/cover; 
+    width: 90vw;
+    height: 90vw;
+    padding-bottom: 20px;
 }
 
 /* Footer */
@@ -129,7 +163,7 @@ main {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a
+    color: #3a3a3a;
 
 }
 
